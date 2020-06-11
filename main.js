@@ -31,7 +31,7 @@ function isElementary(level){
 }
 
 function areDifferentPeople(name1,name2){
-  return name1 === name2
+  return name1 !== name2
 }
 
 function isMiddleSchoolTeacher(role,level){
