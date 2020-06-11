@@ -39,7 +39,7 @@ function isMiddleSchoolTeacher(role,level){
 }
 
 function notAnElementaruySchoolAdministrator(level,role){
-  return level || role != 'elementary school administrator'
+  return level && role != 'elementary school administrator'
 }
 
 
