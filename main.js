@@ -2,6 +2,45 @@
  * YOUR CODE BELOW! *
  ********************/
 
+function isSucceeding(num){
+  return num > 83 && num < 93
+}
+
+function isFailing(num){
+  return num < 60
+}
+
+function isAcing(num){
+  return num > 92
+}
+
+function isStudent(role){
+  return role === 'student'
+}
+
+function isTeacher(role){
+  return role === 'teacher'
+}
+
+function isAdmin(role){
+  return role === 'admin'
+}
+
+function isElementary(level){
+  return level === 'elementary'
+}
+
+function areDifferentPeople(name1,name2){
+  return name1 === name2
+}
+
+function isMiddleSchoolTeacher(role,level){
+  return role === 'teach' && level > 5 && level < 9
+}
+
+function notAnElementaruySchoolAdministrator(level,role){
+  return level || role != 'elementary school administrator'
+}
 
 
 
