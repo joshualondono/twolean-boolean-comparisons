@@ -2,6 +2,22 @@
  * YOUR CODE BELOW! *
  ********************/
 
+function moreThan5(num){
+  return num > 5
+}
+
+function topScore(num1,num2){
+  return num1 > num2
+}
+
+function isInDanger(num){
+  return num > 59 && num < 72
+}
+
+function isCoasting(num){
+  return num > 71 && num < 84
+}
+
 function isSucceeding(num){
   return num > 83 && num < 93
 }
